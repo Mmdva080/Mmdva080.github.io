@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>music playr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="background"></div>
+   <div class="music-player">
+    <audio src="music/05 - Shayea - Telo.mp3" id="audio"></audio>
+    <div class="header">
+        <div class="imge">
+            <img src="imge/Telo.jpg" >
+        </div>
+        <div class="information">
+            <div class="system">windows</div>
+            <div class="song-name">telo</div>
+            <div class="singers">shayea</div>
+        </div>
+        <div class="clear">
+
+        </div>
+    </div>
+    <div class="player">
+        <div class="time-line">
+            <div class="background"> </div>
+            <div class="fill" id="fill"> </div>
+            <div class="fill-btn" id="fill-btn"> </div>
+        </div>
+        <div class="under-time-line">
+            <span id="time-past">0:00</span>
+            <span id="time-latf">-0:0</span>
+        </div>
+        <div class="buttons">
+            <button class="btn">
+                <img src="imge/next and back.png"width="30px" height="30px" style="transform: rotateY(180deg);" id="back">
+          </button>
+            <button class="btn">
+                <img src="imge/play icon.png" width="30px" height="30px" id="play_pause" onclick="play_and_pause()">
+          </button>
+            <button class="btn">
+                <img src="imge/next and back.png" width="30px" height="30px" id="next">
+          </button>
+        </div>
+    </div>
+
+   </div>
+   <script src="hty.js"></script>
+   
+</body>
+</html>
